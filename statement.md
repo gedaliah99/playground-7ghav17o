@@ -49,10 +49,9 @@ This is true, but there is one slight difference.
 ```python runnable
 string = "Hello World!"
 
-print(string.find("l"))  # index at 2.
-print(string.index("l")) # index at 2.
+print(string.find("a"))  # Will return -1.
+print(string.index("a")) # Will raise an error.
 ```
-As you can see, the same functionality.
 :::
 
 ## Program 2: Using ```index()``` on Lists
