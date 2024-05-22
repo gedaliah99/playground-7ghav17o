@@ -1,4 +1,4 @@
-# PYTHON: The "index()" Function.
+# PYTHON: The Index() Function.
 In this playground, we are going to take a look at Python's built-in ```index()``` function.
 
 Before we do that, I want to make clear that the ```index()``` function can be used for Strings, Lists and Tuples.
