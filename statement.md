@@ -11,7 +11,7 @@ I'd also like to make clear that the ```index()``` function works for 0-based in
 string = "abcde"
 # "a" is indexed 0, "b" is indexed 1, "c" is indexed 2, etc.
 
-list = ["a", "b", "c", "d", "e"]
+_list = ["a", "b", "c", "d", "e"]
 # "a" is indexed 0, "b" is indexed 1, "c" is indexed 2, etc.
 ```
 
@@ -19,6 +19,14 @@ Now, let's begin.
 
 ## Program 1: Using ```index()``` on Strings
 We can use the ```index()``` function to find the position (or index) of the first character of a substring in a string:
+
+```python
+# Usage:
+string.index(substring, start, end)
+```
+
+Here's an example of the function in action:
+
 ```python runnable
 string = "Hello World!"
 
@@ -47,3 +55,14 @@ print(string.index("l")) # index at 2.
 As you can see, the same functionality.
 :::
 
+## Program 2: Using ```index()``` on Lists
+We can also use the ```index()``` function to find the position (or index) of an element in a list.
+```python
+# Usage:
+list.index(element)
+```
+
+Here's an example of the function in action:
+```python runnable
+_list = []
+```
