@@ -8,10 +8,10 @@ I'd also like to make clear that the ```index()``` function works for 0-based in
 ```python
 # A "0-based index" is an index that begins at 0.
 
-String = "abcde"
+string = "abcde"
 # In String: "a" is indexed 0, "b" is indexed 1, "c" is indexed 2, etc.
 
-List = ["a", "b", "c", "d", "e"]
+list = ["a", "b", "c", "d", "e"]
 # In List: "a" is indexed 0, "b" is indexed 1, "c" is indexed 2, etc.
 ```
 
