@@ -11,7 +11,7 @@ I'd also like to make clear that the ```index()``` function works for 0-based in
 string = "abcde"
 # "a" is indexed 0, "b" is indexed 1, "c" is indexed 2, etc.
 
-_list = ["a", "b", "c", "d", "e"]
+list = ["a", "b", "c", "d", "e"]
 # "a" is indexed 0, "b" is indexed 1, "c" is indexed 2, etc.
 ```
 
@@ -63,5 +63,7 @@ list.index(element)
 
 Here's an example of the function in action:
 ```python runnable
-_list = []
+list = ['H', 'e', 'l', 'l', 'o']
+
+print(list.index("e")) # "e" is at index 1.
 ```
